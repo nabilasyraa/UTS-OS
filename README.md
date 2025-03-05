@@ -22,4 +22,14 @@ sudo systemctl status ssh
 ```
 ![Image](https://github.com/user-attachments/assets/80a0550a-ce9d-4e42-8617-4b80bfffc65f)
 
-## Langkah 2: Install SSH di client
+## Langkah 2: Install SSH di client(vina)
+### 1. Buka terminal
+### 2. Update package list
+### 3. Install openssh client
+
+## Langkah 3: Menghubungkan client ke server
+### 1. Dapatkan alamat IP server(server)
+### 2. Menghubungkan ke server menggunakan IP server(client)
+### 3. Masukkan password
+Jika menggunakan password authentication, masukkan password user server.
+### 4. 

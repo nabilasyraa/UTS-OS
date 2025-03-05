@@ -33,3 +33,22 @@ sudo systemctl status ssh
 ### 3. Masukkan password
 Jika menggunakan password authentication, masukkan password user server.
 ### 4. 
+
+## Langkah 3: Pengujian
+Setelah server dan client terhubung dengan SSH, Mari kita coba membuat proyek sederhana untuk menguji koneksi tersebut.
+### 1. Buat script
+```
+nano test_ssh.sh
+```
+### 2. Isi script
+Isilah file test_ssh.sh di text editor nano pada server:
+```
+echo [isi]
+```
+### 3. Beri hak akses eksekusi
+Beri izin eksekusi pada script:
+```
+chmod +x test_ssh.sh
+```
+### 4. Jalankan script di client
+Jalankan script untuk memastikan server dan client sudah terhubung:
